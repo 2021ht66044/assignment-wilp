@@ -32,11 +32,21 @@ git push -u origin feature
 
 ```bash
 ##Edit files or create new files followed by commit
-
-
+## Created new folder Docs
+## Created new file in Docs as git.md with README.md
+git add -A
+git commit -m'new Docs directory created and added'
+git push
 ```
 
-Clone the repo and Create pull-request
+```bash
+##Clone the repo
+git clone https://github.com/2021ht66044/assignment-wilp.git clone-of-assignment-wilp
+```
+```bash
+## Create pull-request
+
+```
 While collaborating your work, showcase how conflicts are resolved
 Create tag such as open issue, or feature-added
 Do a force push/commit and then later reset the changes

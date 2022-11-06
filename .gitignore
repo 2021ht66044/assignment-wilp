@@ -1,0 +1,10 @@
+## disallow all
+/*
+## allowed only below
+!*.md
+!.gitignore
+
+!*Docs/
+!scripts
+
+!**/*bk

@@ -32,22 +32,6 @@ git push -u origin feature
 
 ```bash
 ##Edit files or create new files followed by commit
-##conflict to   resolved by merge"
-
-```
-
-```bash
-##Clone the repo and Create pull-request
-```
-
-```bash
-##While collaborating your work, showcase how conflicts are resolved
-```
-
-```bash
-##Create tag such as open issue, or feature-added
-```
-
 Do a force push/commit and then later reset the changes
 
 Stage “development branch to production branch”

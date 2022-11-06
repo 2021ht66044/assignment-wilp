@@ -1,8 +1,15 @@
-Project assignment-wilp
+# Git Basics
+> Assigment Wilp
 
+
+```bash
+##Project assignment-wilp create directory on local system
 mkdir assigment-wilp
 cd assigment-wilp
+```
 
+```bash
+## Create repo on github and follow the instructions on local system
 echo "# assignment-wilp" >> README.md
 git init
 git add README.md
@@ -10,26 +17,49 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/2021ht66044/assignment-wilp.git
 git push -u origin main
+```
+```bash
+## Create a branch(development/production/feature)
+git checkout -b development
+git push -u origin development
 
-Assignment 1
+git checkout -b production
+git push -u origin production
 
-The objective of this assignment is to have hands on experience of Git Workflow. You are required to create or fork a repo on Git and use Git bash on the desktop for completing the tasks. You are required to create one manager role for the repository and others as collaborators. The manager will act as a reviewer and decision maker. 
+git checkout -b feature
+git push -u origin feature
+```
 
-Checklist of the tasks that are required to be performed: 
-Add team members as collaborators and assign them appropriate rights (if you are performing individual then create one dummy account for the task)
+```bash
+##Edit files or create new files followed by commit
+echo "conflict to resolved by merge"
 
-Create a branch(development/production/feature)
+```
 
-Edit files or create new files followed by commit
+```bash
+##Clone the repo and Create pull-request
+```
 
-Clone the repo and Create pull-request
-While collaborating your work, showcase how conflicts are resolved
-Create tag such as open issue, or feature-added
-Do a force push/commit and then later reset the changes
+```bash
+##While collaborating your work, showcase how conflicts are resolved
+```
 
-Stage “development branch to production branch”
-Showcase how features are released in versions (merging production to master branch)
+```bash
+##Create tag such as open issue, or feature-added
+```
 
-Also, state importance of Readme and gitignore files and their usage while working in a distributed environment.
-
-Bonus point: If Pull Requests are linked with e-mail to the manager who finally approves the changes.
+```bash
+##Do a force push/commit and then later reset the changes
+```
+```bash
+##Stage “development branch to production branch”
+```
+```bash
+##Showcase how features are released in versions (merging production to master branch)
+```
+```bash
+##Also, state importance of Readme and gitignore files and their usage while working in a distributed environment.
+```
+```bash
+##Bonus point: If Pull Requests are linked with e-mail to the manager who finally approves the changes.
+```
